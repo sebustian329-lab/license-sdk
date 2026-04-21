@@ -1,0 +1,28 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 27785,
+    "publicBaseUrl": "http://149.50.108.161:27785"
+  },
+  "security": {
+    "managementApiKey": "XMQRDpL0moNrZGCY2yBT48dVJhv6a7nIwfs5",
+    "publicValidationToken": "l8ku7LpHKSigCVvsNDnPUyGA6eXoRrm1fwQj"
+  },
+  "discord": {
+    "enabled": false,
+    "token": "PUT_DISCORD_BOT_TOKEN_HERE",
+    "guildId": 0,
+    "commandPrefix": "!license",
+    "allowedUserIds": [],
+    "allowedRoleIds": []
+  },
+  "database": {
+    "path": "data/license-system",
+    "username": "sa",
+    "password": ""
+  },
+  "defaults": {
+    "defaultDurationDays": 30,
+    "defaultMaxServers": 1
+  }
+}
